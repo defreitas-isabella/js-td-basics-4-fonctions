@@ -31,6 +31,6 @@ pour le réutiliser dans une autre fonction
 
 // 2°) Créez la fonction calcule2
 
-
+EFPOZJEP
 
 // 3°) Appelez les fonctions calcule1() et calcule2() pour exécuter les calculs et afficher les résultats dans la console
