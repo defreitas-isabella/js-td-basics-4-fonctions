@@ -1,6 +1,6 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 4. PASSAGE DE PARAMÈTRE : FONCTION AVEC PARAMÈTRE (SANS RETURN)
 
@@ -15,6 +15,11 @@
   b) 6 et "Prosper"
 */
 
+function presenter (prenom,age){
+    console.log(`Tu t'appelles ${prenom} et tu as ${age}`);
+}
+presenter("Mike",13);
+presenter(13,"Dina");
 // Déclaration de la fonction
 
 function presenter(prenom, age) {

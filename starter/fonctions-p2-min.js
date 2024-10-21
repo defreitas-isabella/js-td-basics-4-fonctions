@@ -3,6 +3,7 @@ FONCTIONS - PRÉPA 2 : Le minimum de deux nombres
 1. En supposant que la fonction JavaScript Math.min() n'existe pas,
    déclarez la fonction calcMin pour qu'elle retourne
    le plus petit des deux nombres passés en paramètres
+
 2. Utilisez ensuite votre fonction pour calculer
    - le minimum entre 4.5 et 5
    - le minimum entre 19 et 9
@@ -11,6 +12,17 @@ N.B. Faites deux versions :
    - en utilisant la syntaxe classique
    - en utilisant une arrow function
 */
+
+function calcMin (a,b){
+    if (a<b){
+        return a;
+    } else {
+        return b;
+    }
+}
+calcMin(4.5,5);
+calcMin(19,9);
+calcMin(1,1);
 
 // Syntaxe classique
 

@@ -1,6 +1,6 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 6. FONCTION ANONYME
 
@@ -17,6 +17,12 @@
 - Déclarez la fonction ci-dessus en utilisant la syntaxe "fat arrow function"
 - Utilisez-la pour saluer Thomas dans la console
 */
+
+const saluer =() => {
+    console.log("Salut Thomas!")
+};
+
+saluer();
 
 // Fonction anonyme avec la syntaxe "fat arrow function"
 
@@ -37,6 +43,9 @@ N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions
 - Utilisez-la pour saluer Thomas dans la console
 */
 
+const saluer =nom=>console.log(`Bonjour, ${nom}`);
+
+saluer("Thomas");
 // Fonction anonyme avec la syntaxe simplifiée
 
 

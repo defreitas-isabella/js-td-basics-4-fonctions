@@ -1,6 +1,6 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 5. PASSAGE DE PARAMÈTRE : FONCTION AVEC PARAMÈTRE ET AVEC RETURN
 
@@ -13,6 +13,14 @@
    a) "Baptiste"
    b) "Sophie"
 */
+
+function direBonjour (prenom){
+    var message ="Bonjour !";
+    return `Bonjour ${prenom}!`;
+}
+
+console.log(direBonjour("Sophie"));
+console.log(direBonjour("Baptiste"));
 
 // RETURN, PORTÉE DE VARIABLE, PARAMÈTRE - RÉSUMÉ GLOBAL :
 /*

@@ -1,6 +1,6 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 6. FONCTION ANONYME
 
@@ -14,6 +14,12 @@
 - Exécutez la fonction
 */
 
+var direBonjour = function(){
+    console.log("Bonjour !");
+}
+
+direBonjour();
+
 // Expression de fonction sans paramètre ni return
 
 
@@ -24,11 +30,16 @@
 // b) sans paramètre mais avec return
 
 /* EXERCICE 2 :
+
 - Déclarez sous la forme d'une expression de fonction
   la fonction disBonjour qui retourne la chaîne "Bonjour !"
 - Utilisez-la pour afficher "Bonjour !" dans la console
 */
+var disBonjour = function(){
+    return "Bonjour !";
+}
 
+console.log(disBonjour());
 // Expression de fonction sans paramètre mais avec return
 ;
 
@@ -45,6 +56,13 @@
    - retourne ce message
 - Utilisez-la pour saluer Thomas dans la console
 */
+
+var salue = function (prenom){
+    var msg ="Bonjour!";
+    return`Bonjour, ${prenom}`
+}
+
+console.log(salue("Thomas"));
 
 // Expression de fonction avec paramètre et return
 

@@ -1,17 +1,17 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 4. PASSAGE DE PARAMÈTRE : FONCTION AVEC PARAMÈTRE (SANS RETURN)
 
 /* RAPPEL :
 1. Un PARAMÈTRE est une information dont une fonction a besoin pour jouer son rôle.
 
-2. Dans la DÉCLARATION de la fonction, 
+2. Dans la DÉCLARATION de la fonction,
   - le NOM du paramètre est défini entre parenthèses juste après le nom de la fonction
   - on peut ensuite l'utiliser (comme si c'était une variable locale)
-    en indiquant son nom à chaque fois qu'on en a besoin dans le corps de la fonction. 
- 
+    en indiquant son nom à chaque fois qu'on en a besoin dans le corps de la fonction.
+
 3. Au moment de l'APPEL de la fonction :
   - on passe la VALEUR du paramètre entre les parentèses de l'appel de fonction.
   => La valeur d'un paramètre est fournie au moment de l'appel de la fonction :
@@ -21,6 +21,7 @@
 
 /* EXERCICE :
 1. Déclarez une fonction appelée direBonjour
+
    - qui prend comme paramètre le prenom
    - qui doit faire plusieurs affichages successifs dans la console :
       - "Bonjour !"
@@ -33,13 +34,23 @@
    b) "Sophie"
 */
 
+function direBonjour (prenom){
+    console.log("Bonjour !");
+    console.log("Hello!");
+    console.log(`Comment vas-tu ${prenom}?`);
+    console.log("Hey salut !");
+    console.log("Buenos dias !");
+}
+
+direBonjour("Baptiste");
+direBonjour("Sophie");
+
 // 1°) Déclaration de la fonction avec paramètre
 
-function direBonjour(prenom) {
-    // Utilisez le paramètre prenom pour les affichages
-    // par exemple : console.log("Bonjour " + prenom + " !");
-    // Continuez avec les autres messages
-}
+// Utilisez le paramètre prenom pour les affichages
+// par exemple : console.log("Bonjour " + prenom + " !");
+// Continuez avec les autres messages
+
 
 /*
 Au moment de la DÉCLARATION de la fonction, on définit le paramètre
@@ -49,9 +60,11 @@ puis on l'utilise dans le corps de la fonction
 
 // 2°) Appel de la fonction avec paramètre
 
+F
+
 // Appelez la fonction direBonjour en lui passant "Baptiste" comme argument
 // puis appelez-la à nouveau en lui passant "Sophie" comme argument
 
-/* 
+/*
 Au moment de l'APPEL de la fonction, on donne une VALEUR au paramètre
 */

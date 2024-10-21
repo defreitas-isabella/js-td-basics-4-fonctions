@@ -17,3 +17,27 @@ Aide : votre fonction s'exécute avec le pattern suivant : calculer(nb1, "+", nb
 
 // Utilisation de la fonction calculer
 
+function calculer(nb1, operation, nb2){
+    let resultat;
+
+    switch (operation){
+        case "+":
+            resultat = nb1 + nb2;
+            break;
+        case "-":
+            resultat= nb1-nb2;
+            break;
+        case "*":
+            resultat = nb1*nb1;
+            break;
+        case "/":
+            resultat=nb1/nb2;
+            break;
+        default:
+            console.log("Opération non valide");
+    }
+}
+console.log(calculer(4, "+", 6));
+console.log(calculer(4, "-", 6));
+console.log(calculer(2, "*", 0));
+console.log(calculer(12, "/", 0));

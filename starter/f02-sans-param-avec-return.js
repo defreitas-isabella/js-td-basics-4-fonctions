@@ -2,7 +2,7 @@
  * 020 - Fonctions - Préalable
  */
 
-// 2. FONCTION SANS PARAMÈTRE MAIS AVEC UN RETURN  
+// 2. FONCTION SANS PARAMÈTRE MAIS AVEC UN RETURN
 
 /* RAPPELS :
 	1. Déclarer la fonction
@@ -12,7 +12,7 @@
 /*
 DÉCLARER la fonction = CRÉER la fonction :
 On crée un conteneur qui a un identifiant (le nom de la fonction)
-et on y stocke le mode d'emploi (le corps de la fonction, la liste d'instructions qui sont entre les accolades) 
+et on y stocke le mode d'emploi (le corps de la fonction, la liste d'instructions qui sont entre les accolades)
 !! Cette fois, on ajoute à la fin du bloc de déclaration l'instruction RETURN suivie de la valeur de retour (c.-à-d. la valeur que la fonction devra retourner lorqu'on l'exécutera)
 N.B. La déclaration, à elle toute seule, ne produit aucun résultat visible
 	(on a juste enregistré quelque chose dans la mémoire de l'ordinateur,
